@@ -1,5 +1,11 @@
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 #gallery img {
-  width: 50%;
-  height: auto;
+  max-width: 50%;
   margin: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
 }
